@@ -1,7 +1,7 @@
 #          **PROGRAMMING FOR PROGRAM SOLVING ESC-18105** 
-##         **Sarvanshdeep Singh Sahota**
+##         **Ritik Dodra**
 ##         **Civil B2** 
-##         **1914100**
+##         **1914087**
 #          **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**
 ##         **Department of Civil Engineering**
 ![LOGO](https://raw.githubusercontent.com/01eyon/1914100/master/Capture.PNG)
