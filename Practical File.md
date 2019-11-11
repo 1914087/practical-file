@@ -1,5 +1,5 @@
-#          **PROGRAMMING FOR PROGRAM SOLVING ESC-18105** 
-##         **Ritik Dodra**
+#          **PROGRAMMING FOR PROBLEM SOLVING ESC-18105** 
+##         **Ritik Dogra**
 ##         **Civil B2** 
 ##         **1914087**
 #          **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**
