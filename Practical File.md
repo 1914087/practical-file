@@ -521,78 +521,78 @@
     8
     9
     10
-## 19. WEEKDAYS BY USING SWITCH STATEMENT
-```C
-#include<stdio.h>
-void main()
-{
-        int a;
-        printf("Enter any integer between 1 to 7\n");
-        scanf("%d",&a);
-        switch(a)
-        {
-                case 1:
-                        printf("MONDAY\n");
-                        break;
-                case 2:
-                        printf("TUESDAY\n");
-                        break;
-                case 3:
-                        printf("WEDNESDAY\n");
-                        break;
-                case 4:
-                        printf("THRUSDAY\n");
-                        break;
-                case 5:
-                        printf("FRIDAY\n");
-                        break;
-                case 6:
-                        printf("SATURDAY\n");
-                        break;
-                case 7:
-                        printf("SUNDAY\n");
-                        break;
-                default :
-                        printf("Enter number between 1 to 7\n");
-                        break;
-        }
-}  
-```
-## 20. BINARY SEARCH
-```C
-#include<stdio.h>
-int main()      
-{               
-        int m,n,a[100],search,first,last,middle;
-        printf("Enter the size of array");
-        scanf("%d",&m);
-                
-        printf("Enter %d numbar\n",m);
-                
-        for(n=0;n<m;n++)
-                scanf("%d",&a[n]);
-        printf("Enter the the number u want to search\n");
-        scanf("%d",&search);
+**19. Program to Multiply two Floating Point Numbers:-**
 
-        first=0;
-        last=m-1;
-        middle=(first+last)/2;
-
-        while(first<=last)
-        {
-                if(a[middle]<search)
-                        first=middle+1;
-                else if(a[middle]==search)
-                {
-                        printf("%d found at location %d\n",search,middle+1);
-                        break;
-                }
-                else
-                        last=middle-1;
-                middle=(first+last)/2;
-        }
-        if(first>last)
-                printf("Not found! %d is not present in the list \n",search);
+    #include<stdio.h>
+    int main()
+    {
+        float a, b, c;
+        printf("Enter the first value:",a);
+        scanf("%f",&a);
+        printf("Enter the second value:",b);
+        scanf("%f",&b);
+        c=a*b;
+        printf("The Multiplication of two Floating Point Numbers is %.2f",c);
         return 0;
+    }
+
+    Output:-
+    Enter the first value:2.5
+    Enter the second value:1.6
+    The Multiplication of two Floating Point Numbers is 4.00
+
+
+**20. Binary Search**
+
+#include <stdio.h>
+ 
+int main()
+{
+   int c, first, last, middle, n, search, array[100];
+ 
+   printf("Enter number of elements\n");
+   scanf("%d",&n);
+ 
+   printf("Enter %d integers\n", n);
+ 
+   for (c = 0; c < n; c++)
+      scanf("%d",&array[c]);
+ 
+   printf("Enter value to find\n");
+   scanf("%d", &search);
+ 
+   first = 0;
+   last = n - 1;
+   middle = (first+last)/2;
+ 
+   while (first <= last) {
+      if (array[middle] < search)
+         first = middle + 1;    
+      else if (array[middle] == search) {
+         printf("%d found at location %d.\n", search, middle+1);
+         break;
+      }
+      else
+         last = middle - 1;
+ 
+      middle = (first + last)/2;
+   }
+   if (first > last)
+      printf("Not found! %d isn't present in the list.\n", search);
+ 
+   return 0;   
 }
-```
+
+output:-
+Enter No. of elements 7
+Enter 7 Integers 
+-4
+5
+8
+9
+11
+49
+482
+Enter value to find
+11
+11 found at location 5
