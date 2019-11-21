@@ -1,6 +1,6 @@
 ![College Logo](https://www.gndec.ac.in/logo.png)
 
-# **PROGRAMMING FOR PROGRAM SOLVING ESC-18105**
+# **PROGRAMMING FOR PROBLEM SOLVING ESC-18105**
 ## **NAME - RITIK DOGRA**
 ## **ROLL NO - 1914087**
 ## **SECTION - CE(B2)**
