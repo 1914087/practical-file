@@ -585,19 +585,30 @@ int main()
 output:-
 
 Enter No. of elements 7
+
 Enter 7 Integers
+
 -4
+
 5
+
 8
+
 9
+
 11
+
 49
+
 482
+
 Enter value to find
+
 11
+
 11 found at location 5
 
-**21. Linear Search
+**21. Linear Search**
 
 #include <stdio.h>
 int main()
@@ -631,12 +642,20 @@ int main()
  Output:-
  
  Enter No. of array 5
+ 
  Enter 5 numbers
+ 
  5
+ 
  6
+ 
  4
+ 
  2
+ 
  9
+ 
  enter number to search 4
+ 
  4 is present at location 3
  
