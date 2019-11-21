@@ -1547,7 +1547,7 @@ long factorial(int x)
     Enter Marks: 80
 
     Entered Information is: 
-    Name: Sharanjit
+    Name: Ritik Dogra
     Age: 9465329287
     Marks: 88
 
